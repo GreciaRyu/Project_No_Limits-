@@ -42,7 +42,7 @@ while (combustible>0 && decision==1) {
             viajeEspacial(100,3,"Has llegado a Júpiter, es incluso más grande cuando aterrizas ¿no?")
         }
         else if (planeta===4 && combustible>=250){
-            viajeEspecial(250,4,"Has llegado a Saturno, ¿Notaste que los anillos solo son polvo estelar y otras particulas?")
+            viajeEspacial(250,4,"Has llegado a Saturno, ¿Notaste que los anillos solo son polvo estelar y otras particulas?")
         }
         else {
             alert("No tienes combustible suficiente para alcanzar ese destino!")
@@ -54,4 +54,4 @@ while (combustible>0 && decision==1) {
   
     decision=Number(prompt(mensaje+combustible))
 }
-console.log("Has salido de la nave, suerte con tu misión")
+alert("Has salido de la nave, suerte con tu misión")
